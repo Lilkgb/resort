@@ -1,5 +1,7 @@
 h1 {
   text-align: center;
+  background-image: url("../img/beach_above.jpeg");
+  background-size: cover;
   color: black;
   line-height: 100px;
   margin-bottom: 0;
@@ -14,33 +16,33 @@ h1 {
   line-height: 50px;
 }
 body {
-  text-shadow: 1px 1px 3px #000000;
+  text-shadow: 1px 1px 8px #00ffff;
   font-family: sans-serif;
-  background-color: black;
+  background-image: url("../img/water.jpeg");
 }
 p {
   font-size: 110%;
-  color: white;
-  border: solid rgba(255,255,255,1) 50px;
-  background-color: white;
+  color: black;
+  border: solid rgba(255,255,255,0) 50px;
+  background-color: rgba(255,255,255,0.75);
   margin-top: 0;
 }
 a {
-  color: white;
+  color: black;
 }
 a:hover {
-  color: rgba(220,220,220);
+  color: #0000ff;
 }
 ul  {
-  color: white;
+  color: black;
   margin-top: 0;
-  border: solid rgba(255,255,255,1) 50px;
-  background-color: white;
+  border: solid rgba(255,255,255,0) 50px;
+  background-color: rgba(255,255,255,0.75);
 }
 h4   {
-  color: white;
+  color: black;
   margin-top: 0;
   margin-bottom: 0;
-  border: solid rgba(255,255,255,1) 50px;
-  background-color: white;
+  border: solid rgba(255,255,255,0) 50px;
+  background-color: rgba(255,255,255,0.75);
 }
